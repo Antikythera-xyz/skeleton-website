@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>PROJECT TITLE</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="banner">
+      <div id="title">PROJECT TITLE</div>
+    </div>
+  </header>
+  <main>
+      <div id="toc">
+        <div class="contents">
+          <a href="#act1"><h1>
+            Part 1: Synthetic Intelligence
+          </h1>
+          <p>
+            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+          </p></a>
+        </div>
+        <div class="contents">
+          <a href="#act2"><h1>
+            Part 2: Recursive Simulation
+          </h1>
+          <p>
+            Pellentesque congue, ex vel ullamcorper volutpat, enim diam luctus odio, eget aliquet nunc dolor ut risus.
+          </p></a>
+        </div>
+        <div class="contents">
+          <a href="#act3"><h1>
+            Part 3: Synthetic Catallaxy
+          </h1>
+          <p>
+            Donec id erat vestibulum, hendrerit sapien et, pretium diam.
+          </p></a>
+        </div>
+      </div>
+      <div id="act1" class="textSection">
+        <div class="text">
+          <h1>
+            Part 1: Synthetic Intelligence
+          </h1>
+          <img src="img/dithering.png"/>
+          <p>The massive Large Language Models (LLMs) of today could not exist without the internet proliferating data exponentially over the past decade. GPT-3 is a foundational language model trained on 45TB of text—some 85% from the internet, including the Common Crawl, a dataset of scraped, publicly accessible websites. Yet despite its eerie capabilities, GPT-3’s training data ultimately consists of a tiny subset of language itself.</p>
+          <p>The much broader set of <i>potential</i> data remains inaccessible due to privatization, incompatible formats, or lack of digitization and aggregation. While current foundation models are language-based, nothing limits these models to dealing with text alone. The true potential of these models rests in their ability to synthesize multi-modal streams of information into a single knowledge architecture. This proposal radically expands the scope of foundation models, moving beyond anthropocentric, language data towards the wealth of ecological information immanent to the planet.</p>
+          <p>Many actors are already attempting to gather such information, albeit in piecemeal ways. The Global Nucleic Acid Observatory and the Australian Acoustic Observatory seek to capture metagenomic information of watersheds and ecological bioacoustic sound data, respectively. Both approaches invert the traditional model of the observatory, looking inwards towards the Earth rather than outwards into the cosmos. Still, they remain limited in scope and do not integrate the data they collect into a broader composition.</p>
+          <p>Another structure provides a template for how a planetary-scale observatory might be conceived. The Event Horizon Telescope is a global network of synchronized radio telescopes that coordinate observations to image a black hole for the first time. Such a model recasts the entire earth as a distributed observatory, with each individual telescope contributing to a composite image of the cosmos. Imagine another mesh observatory but with an inverted gaze, taking the Earth, rather than the cosmos, as the object to be observed.</p>
+
+          <p>What if the cognitive infrastructure of such observations took the form of a foundation model: one which represented not only a small subset of human language, but the wealth of information in the biosphere as well?</p>
+        </div>
+      </div>
+      <div id="act2" class="textSection">
+        <div class="text">
+
+          <h1>
+            Part 2: Recursive Simulation
+          </h1>
+          <p>The imaging process of the Event Horizon Telescope is no different to how we see: photoreceptors absorb electromagnetic radiation and trigger electrical signals along neurons, beyond which higher levels of processing assemble the complete image. The transformation from one signal to another is called transduction, which describes both the processes by which we see, hear, smell—but also what machine sensors do.
+          </p>
+          <p>
+          We are all plugged into a limited bandwidth of a planetary ground truth of various forms of radiation, vibration, and energy, yet integrate the stimuli into a cohesive <i>umwelt</i>. What if this sensory integration took place beyond the scale of the individual organism, at the scale of the entire planet? Enter the Whole Earth Codec, an autoregressive foundation model trained across multiple modalities, which enables interoperability between disparate forms of data and allows an expansive planetary intelligence to emerge.</p>
+        <h2>Data</h2>
+        <p>
+        The Codec ingests broad spectrum data across modalities. The distributed network of its mesh observatory consists of different sensors receiving different types of stimuli: image, audio, chemical, lidar, pressure, moisture, magnetic fields, etc. What forms of data are produced are just as broad as the forms of sensing. The data stream from an individual sensor consists of measurements taken at a modality-relevant sampling rate, e.g. twenty times a second for earthquake seismometers, once every thirty minutes for common AQI sensors. The rate can also differ between sensors within the same modality, such as a microphone attuned to birdsong at 44 kHz versus one for turtles at 24 kHz. Regardless of modality, a UTC timestamp and GPS satellite signal is attached to each sample. This anchoring allows the model to make associations based on temporal and spatial correlation across disparate modalities.
+        </p>
+        <h2>Pre-training</h2>
+        <p>Foundation models are pre-trained on a massive corpus of unsupervised data, and the Whole Earth Codec is no different. In data streams of sequential samples, the tokenization method is apparent: the data from these sensors are batched into an aggregated document and each sample from its stream of measurements is a single token. Other forms of non-sequential data require different tokenization techniques, such as images broken into pixels and sequenced in raster order.</p>
+        <p>To handle multimodal input, separate encoders are trained for each type of data. These encoders transform disparate forms of input into dense, high-dimensional embeddings within a single, massive cross-modal latent space. The model is trained to project temporally and spatially correlated forms of data into nearby embeddings within the space. Decoders of different modalities are then trained by translating the latent space embeddings into sequence predictions. Due to the massive scale of information, the model only makes a single pass over available data. As new data is gathered and aggregated, the model can simply continue training and updating weights.
+        </p>
+        <h2>Privacy</h2>
+        <p>The distributed sensing network from which the Whole Earth Codec observes the planet is privy to vast amounts of data, yet sensitive information is protected through structured transparency. Input privacy refers to the ability to process information that is hidden from you and to allow others to process your information without revealing it to them, while output privacy refers to the ability to read the output of an information flow without being able to reverse-engineer further information about the input. Through federated learning, data from the mesh observatory is processed in local servers within a secure enclave, communicating weights rather than data to the coordinating server containing the main foundation model. This maintains the input privacy of all data ingested by the model. For particularly sensitive information, adding noise to each datapoint preserves output privacy without impacting overall learned predictions; this technique is known as differential privacy. The sum of privacy-enhancing technologies deployed entails a trustless paradigm for training the Whole Earth Codec. Traditional relations of opacity/transparency and antagonism/mutualism are complicated by mutually assured observation.</p>
+        <h2>Governance</h2>
+        <p>Sovereignty is derived from this technology, but its implementation spreads from the bottom up; the Whole Earth Codec cannot be owned by any one entity. The mesh observatory is a conglomerate of public and private sensors, networked together by organizations ranging from government institutions to research universities to individual landowners. Much like the Internet Engineering Task Force, the standards and protocols of the Whole Earth Codec are maintained by a supra-national body and proposed, developed, and reviewed in an open process. They maintain interoperable protocols for training and deploying the foundation model, governing processes including data transmission, federation, and weight aggregation.</p>
+        <h2>Capabilities</h2>
+        <p>By integrating myriad channels of sensing data into a shared latent space, the Whole Earth Codec can make emergent associations between a multiplicity of temporal and spatial scales. Unmoored from the umwelt of any single organism, its sensorium is privy to an amalgamated landscape of previously indiscernible relations. Through the same abrupt specific capability scaling prevalent in LLMs, task performance sharply improves as the size of the training corpus expands; this motivates the Codec as a planetary project rather than a fragmented one.</p>
+        <p>Leveraging the pre-trained baseline, fine-tuning uses a smaller, labeled dataset to update model weights, often for specific capabilities or to address domain shift. The Codec forms the substrate for a rich ecosystem of third-party, fine-tuned models with improved performance on downstream tasks. Within the ecosystem, there are fine-tuned models developed by an economy of research universities and private startups, available open-source or through pay-to-play APIs. Openly available models proliferate in everyday use among climate-minded hobbyists, but industries such as insurance will pay a premium for high-performance proprietary software.
+        </p>
+        </div>
+      </div>
+      <div id="act3" class="textSection">
+        <div class="text">
+          <h1>
+            Part 3: Synthetic Catallaxy
+          </h1>
+          <img src="img/pillars.png"/>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer est nisl, interdum eget lacinia nec, luctus in lacus. Cras volutpat consequat nibh. Cras eget faucibus mi. Pellentesque ac erat efficitur, interdum felis vel, commodo velit. Etiam lacinia sit amet purus quis venenatis. Nunc sodales aliquet ante, quis ultrices dui sodales ac. Pellentesque pulvinar lectus quis felis porttitor condimentum sed et turpis. Etiam dictum magna in dolor ultricies elementum ut id quam. Vivamus quis erat sit amet ex consectetur vulputate. Curabitur ullamcorper massa ac vestibulum efficitur. Pellentesque arcu sapien, suscipit ac arcu vel, fermentum pretium ligula. Mauris sed augue sed metus porttitor blandit. Quisque fermentum in est vitae imperdiet. Cras sed diam sed nisl cursus bibendum. Aenean a quam quis sem viverra dictum. Maecenas vitae blandit nisl, nec fringilla ex.
+          </p>
+          <p>
+            Phasellus consequat neque diam, sit amet venenatis orci pharetra in. Mauris vulputate justo convallis sapien semper aliquam. In vel dolor sed purus rutrum pulvinar. Nulla lobortis bibendum aliquet. Vivamus at diam massa. Nulla facilisi. Praesent maximus auctor magna, fermentum elementum mauris pretium sit amet. Quisque nec dictum leo, id mattis ante. Sed eget sem imperdiet, mattis diam non, vestibulum justo. Quisque fringilla quam vel commodo pulvinar. Nulla lacus purus, mattis in mattis vel, ullamcorper ut diam.
+          </p>
+          <p>
+            Pellentesque a turpis nibh. Suspendisse tempus risus ut rhoncus luctus. Donec bibendum dapibus dui, sed finibus tellus convallis eget. In ornare hendrerit neque. Curabitur facilisis dui leo, viverra ullamcorper erat gravida sed. Curabitur mauris mauris, vulputate id suscipit in, convallis in enim. Praesent tempor lacus euismod, vestibulum dolor eu, tempus erat. Donec eu sem cursus, sagittis nunc eu, blandit ligula. Nullam venenatis eget est sed pretium. Proin consectetur commodo dictum.
+          </p>
+          <p>
+            Vestibulum a arcu imperdiet, ullamcorper diam ac, sollicitudin tellus. Mauris scelerisque volutpat mi sit amet mollis. Proin pellentesque tellus sit amet leo suscipit semper. Nam a eros nisl. Cras semper nulla urna, non suscipit tortor placerat id. Nulla facilisi. Phasellus in scelerisque orci, non condimentum nulla. Ut a aliquam risus. Maecenas viverra justo id aliquam efficitur. Quisque non lacus viverra, iaculis enim nec, rhoncus tortor. Donec sed ultricies felis.
+          </p>
+        </div>
+      </div>
+      <div id="vid">
+        <iframe src="https://player.vimeo.com/video/806962726?h=8a84b6125f" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+      </div>
+  </main>
+</body>
+<!-- Scripts go here. scroll.js is empty and can be deleted, it just demonstrates how to add a script. -->
+<script src="js/scroll.js"></script>
+</html>
