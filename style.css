@@ -49,7 +49,7 @@ body {
   font-family: Barlowfold;
   font-weight: bold;
   font-size: 10vh;
-  margin: 10px;
+  margin: 4vw;
   z-index: 52;
   justify-content: center;
   color: black;
@@ -157,11 +157,15 @@ img {
 
 @media screen and (max-width: 600px) {
   #title {
-    font-size: 10vw;
+    font-size: 10vh;
   }
 
   #toc {
-    margin-top: 4vh;
+    margin-top: 30vh;
+  }
+
+  .toc-item {
+    margin: 11vh 4vw;
   }
 
   #content {
