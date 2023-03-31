@@ -1,28 +1,28 @@
 /* If you want to upload fonts, put them in the fonts folder and add them to your stylesheet like below. */
 
 @font-face {
-    font-family: Barlowfold;
-    src: url(fonts/Barlowfold.otf);
-    font-weight: normal;
+  font-family: Barlowfold;
+  src: url(fonts/Barlowfold.otf);
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: Lucette;
-    src: url(fonts/Lucette-Regular.woff);
-    font-weight: normal;
+  font-family: Lucette;
+  src: url(fonts/Lucette-Regular.woff);
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: Lucette;
-    src: url(fonts/Lucette-RegularItalic.woff);
-    font-style: italic;
+  font-family: Lucette;
+  src: url(fonts/Lucette-RegularItalic.woff);
+  font-style: italic;
 }
 
 html, body {
-    font-family: Lucette;
-    color: black;
-    font-size: 24px;
-    margin: 0px;
+  font-family: Lucette;
+  color: black;
+  font-size: 24px;
+  margin: 0px;
 }
 
 html {
@@ -94,17 +94,23 @@ h1 {
   display: inline;
 }
 
-#vid {
+#vid-outer {
   margin-top: 20vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+}
+
+#vid-inner {
+  padding-top: 56.25%;
+  height: 0px;
+  position: relative;
 }
 
 iframe {
-  width: 960px;
-  height: 540px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 h2 {
@@ -152,4 +158,14 @@ video {
 
 #vid {
   margin: 20vh 0;
+}
+
+@media screen and (max-width: 600px) {
+  #title {
+    font-size: 10vw;
+  }
+
+  #toc {
+    margin-top: 4vh;
+  }
 }
